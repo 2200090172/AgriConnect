@@ -1,18 +1,24 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './Components/Home'; // Adjust the path if necessary
-import ImportanceofFarming from './Components/ImportanceofFarming';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import './App.css';
+import Home from './components/Home.jsx';
+import Adminsignin from './components/signin/Adminsignin.jsx';
+import Farmersignin from './components/signin/Farmersignin.jsx';
+import Publicsignin from './components/signin/Publicsignin.jsx';
+import Expertsignin from './components/signin/Expertsignin.jsx';
 
 const App = () => {
   return (
-    <Router>
+
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="#importance-of-farming"element={<ImportanceofFarming/>}/>
-        
+        <Route path="/adminsignin" element={<Adminsignin />} />
+        <Route path="/farmersignin" element={<Farmersignin />} />
+        <Route path="/publicsignin" element={<Publicsignin />} />
+        <Route path="/expertsignin" element={<Expertsignin />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 
