@@ -1,0 +1,124 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-page {
+    text-align: center;
+    color: white;
+    background-color: #000; /* Fallback for background image */
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: #ff3b3f;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #ff3b3f;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.hero-btn:hover {
+    background-color: #e12a2d;
+}
+
+/* Dashboard Section */
+.dashboard-container {
+    padding: 50px 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.dashboard-container h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.dashboard-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.dashboard-item {
+    padding: 20px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dashboard-item:hover {
+    background-color: #45a049;
+}
