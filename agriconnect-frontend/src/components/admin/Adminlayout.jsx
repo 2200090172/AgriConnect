@@ -74,19 +74,25 @@ const Adminlayout = ({ children }) => {
       <div className="links">
         <ul>
           <li className="active">
-            <Link to="/" style={{ "--i": "0.05s" }}>Home</Link>
+            <Link to="/adminhome" style={{ "--i": "0.05s" }}>Admin Home</Link>
           </li>
           <li>
-            <Link to="/adminsignin" style={{ "--i": "0.15s" }}>Sign In as Admin</Link>
+            <Link to="/addfarmer" style={{ "--i": "0.15s" }}>Add Farmer</Link>
           </li>
           <li>
-            <Link to="/farmersignin" style={{ "--i": "0.2s" }}>Sign In as Farmer</Link>
+            <Link to="/addexpert" style={{ "--i": "0.2s" }}>Add Expert</Link>
           </li>
           <li>
-            <Link to="/publicsignin" style={{ "--i": "0.25s" }}>Sign In as Public</Link>
+            <Link to="/addsector" style={{ "--i": "0.25s" }}>Add Sector</Link>
           </li>
           <li>
-            <Link to="/expertsignin" style={{ "--i": "0.25s" }}>Sign In as Expert</Link>
+            <Link to="/viewallfarmers" style={{ "--i": "0.25s" }}>View All Farmers</Link>
+          </li>
+          <li>
+            <Link to="/viewallsectors" style={{ "--i": "0.25s" }}>View All Sectors</Link>
+          </li>
+          <li>
+            <Link to="/viewallexperts" style={{ "--i": "0.25s" }}>View All Experts</Link>
           </li>
         </ul>
       </div>

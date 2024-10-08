@@ -93,10 +93,10 @@ const Adminhome = () => {
            <header>
              <div className="overlay">
                <h2 className="title">Admin Page</h2>
-               <p className="description">
+               {/* <p className="description">
                  “Admin ROle bhayya!!”
-               </p>
-            
+               </p> */}
+               
              </div>
            </header>
          </div>

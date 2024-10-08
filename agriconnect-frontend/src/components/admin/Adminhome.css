@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   transform-style: preserve-3d;
-  transform-origin: left;
+    transform-origin: left;
   transition: 0.5s;
   background-color: #fff;
 }

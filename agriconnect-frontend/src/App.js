@@ -7,6 +7,8 @@ import Farmersignin from './components/signin/Farmersignin.jsx';
 import Publicsignin from './components/signin/Publicsignin.jsx';
 import Expertsignin from './components/signin/Expertsignin.jsx';
 import Adminhome from './components/admin/Adminhome.jsx';
+import Addexpert from './components/admin/Addexpert.jsx';
+import Addfarmer from './components/admin/Addfarmer.jsx';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <Route path="/farmersignin" element={<Farmersignin />} />
         <Route path="/publicsignin" element={<Publicsignin />} />
         <Route path="/expertsignin" element={<Expertsignin />} />
-        <Route path="/adminhome" element={<Adminhome />} />
+         <Route path="/adminhome" element={<Adminhome />} />
+        <Route path="/addexpert" element={<Addexpert />} /> 
+        <Route path='/addfarmer' element={<Addfarmer />} />
       </Routes>
     </BrowserRouter>
   
